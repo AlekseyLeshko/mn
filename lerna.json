@@ -2,5 +2,14 @@
   "packages": [
     "project/*"
   ],
-  "version": "1.0.1"
+  "npmClient": "yarn",
+  "version": "1.0.1",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "publishConfig": {
+        "access": "public"
+      }
+    }
+  }
 }
