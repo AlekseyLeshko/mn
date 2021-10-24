@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@alekseyleshko/foo": "^1.3.0"
+    "@alekseyleshko/foo": "1.3.0"
   }
 }
