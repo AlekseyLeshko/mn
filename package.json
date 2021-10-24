@@ -1,0 +1,8 @@
+{
+  "name": "mn",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:AlekseyLeshko/mn.git",
+  "author": "AlekseyLeshko <alekseyleshko@gmail.com>",
+  "license": "MIT"
+}
