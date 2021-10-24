@@ -6,6 +6,6 @@
   "author": "AlekseyLeshko <alekseyleshko@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "package/*"
+    "project/*"
   ]
 }
