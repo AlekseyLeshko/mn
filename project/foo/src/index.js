@@ -1,7 +1,7 @@
 console.log('foo: module');
 
 const foo = (text) => {
-  console.log('1.3.4');
+  console.log('1.3.1');
   console.log(`foo: module: ${text}`);
 };
 
