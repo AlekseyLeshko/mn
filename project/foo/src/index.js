@@ -1,7 +1,8 @@
 console.log('foo: module');
+const packageJson = require('../package.json');
 
 const foo = (text) => {
-  console.log('1.3.1');
+  console.log(packageJson.version);
   console.log(`foo: module: ${text}`);
 };
 
