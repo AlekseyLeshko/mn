@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp src/index.js ./dist",
     "postinstall": "npm run build"
   },
   "author": "",
