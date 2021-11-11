@@ -6,7 +6,8 @@
   "author": "AlekseyLeshko <alekseyleshko@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "project/*"
+    "project/*",
+    "app/*"
   ],
   "devDependencies": {
     "lerna": "^4.0.0"
