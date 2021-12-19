@@ -1,11 +1,12 @@
+console.log('@baz module loaded');
 const foo = require('@alekseyleshko/foo');
-
-console.log('baz: module:');
+const packageJson = require('../package.json');
 
 const baz = (text) => {
-  foo(test);
+  console.log('@baz module version', packageJson.version);
+  foo(text);
   console.log(`baz: module: ${text}`);
 };
-foo('test-baz');
+baz('test-baz');
 
 module.exports = baz;
