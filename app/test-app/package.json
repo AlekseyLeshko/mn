@@ -9,5 +9,8 @@
     "clean": "rm -rf node_modules dist"
   },
   "devDependencies": {
+  },
+  "dependencies": {
+    "@alekseyleshko/foo": "1.3.9"
   }
 }

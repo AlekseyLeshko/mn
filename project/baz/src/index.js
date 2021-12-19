@@ -1,6 +1,6 @@
 const foo = require('@alekseyleshko/foo');
 
-console.log('baz: module');
+console.log('baz: module:');
 
 const baz = (text) => {
   foo(test);
