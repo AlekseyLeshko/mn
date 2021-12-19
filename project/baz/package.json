@@ -1,5 +1,6 @@
 {
   "name": "@alekseyleshko/baz",
+  "private": true,
   "version": "1.3.11",
   "description": "",
   "main": "dist/index.js",
@@ -12,5 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@alekseyleshko/foo": "^1.3.10"
-  }
+  },
+  "gitHead": "ab4928f258b4a441cebeec4087b5a2c7accbc8f1"
 }
